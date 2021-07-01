@@ -1,1 +1,1 @@
-Exercício da plataforma Digital Innovation One.
+Exercício proposto ao final do curso de Ruby Orientado a Objetos da plataforma Digital Innovation One.
