@@ -1,0 +1,13 @@
+development:
+  host: tuffi.db.elephantsql.com 
+  adapter: postgresql
+  database: gmlmwgfb
+  username: gmlmwgfb
+  password: MnPYdaPaL11cCEDIG_KiX4IBjzUVv3-5
+
+test:
+  host: tuffi.db.elephantsql.com 
+  adapter: postgresql
+  database: gmlmwgfb
+  username: gmlmwgfb
+  password: MnPYdaPaL11cCEDIG_KiX4IBjzUVv3-5
