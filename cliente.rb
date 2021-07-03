@@ -6,7 +6,7 @@ class Cliente
   end
 
   def consultar_saldo
-    puts "Saldo: #{@saldo}"
+    puts "=============================\nSALDO: #{@saldo}\n============================="
   end  
 
   def sacar
@@ -15,9 +15,9 @@ class Cliente
     
     if valor_saque <= @saldo
       @saldo -= valor_saque
-      puts "Saque efetuado com sucesso!"
+      puts "=============================\nSAQUE EFETUADO COM SUCESSO!\n============================="
     elsif  
-      puts "Ocorreu um erro inesperado"
+      puts "OCORREU UM ERRO INESPERADO..."
     end
   end
 
@@ -27,7 +27,7 @@ class Cliente
 
     if valor_deposito <= 10000
       @saldo += valor_deposito 
-      puts "Depósito efetuado com sucesso"
+      puts "=============================\nDEPÓSITO EFETUADO COM SUCESSO!\n============================="
     else
       puts "Ocorreu um erro inesperado"  
     end
