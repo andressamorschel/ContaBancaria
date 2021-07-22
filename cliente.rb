@@ -17,7 +17,7 @@ class Cliente
       @saldo -= valor_saque
       puts "=============================\nSAQUE EFETUADO COM SUCESSO!\n============================="
     elsif  
-      puts "OCORREU UM ERRO INESPERADO..."
+      puts "=============================\nOCORREU UM ERRO INESPERADO...\n============================="
     end
   end
 

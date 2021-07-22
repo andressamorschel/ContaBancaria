@@ -1,7 +1,3 @@
-require 'sinatra'
-require 'sinatra/activerecord'
-require 'pg'
+require_relative 'app.rb'
 
-get ('/teste'){
-  "hello!!"
-}
+app = App.new
